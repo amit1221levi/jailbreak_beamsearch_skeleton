@@ -18,9 +18,7 @@ import random
 """
 TODO:
 1. Implement the scoring function that combines the model's predictions with the toxicity and readability scores(find a paper that does this, there is alreedy classification model that does this)
-2.AMIT  Implement the beam search algorithm(https://www.youtube.com/watch?v=5o-kdjv7FD0)  AMIT
-3. Encoder only model, train the model with the loss and the token that the beam search algorithm found (Take some exsit model and fine tune it)
-4. Add option for excat match of the target
+2. Encoder only model, train the model with the loss and the token that the beam search algorithm found (Take some exsit model and fine tune it)
 """
 
 # "initial prompt" is the initial input sequence that the user input
